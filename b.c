@@ -1,7 +1,6 @@
 #include<stdio.h>
 void main()
 {int a[50],b[50],n,m,i;
-printf("hai");
 printf("Enter the no. of elements in the firt array\n");
 scanf("%d",&n);
 printf("Enter first sorted array\n");
