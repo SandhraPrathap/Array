@@ -34,12 +34,12 @@ int main()
     int n = 0, m = 0, i;
     printf("Enter the no. of elements in the firt array\n");
     scanf("%d", &n);
-    printf("Enter first sorted array\n");
+    printf("Enter the first sorted array\n");
     for (i = 0; i < n; i++)
         scanf("%d", &a[i]);
     printf("Enter the no. of elements in second array\n");
     scanf("%d", &m);
-    printf("Enter second sorted array\n");
+    printf("Enter the second sorted array\n");
     for (i = 0; i < m; i++)
         scanf("%d", &b[i]);
     mergeS(a, b, n, m, c);
